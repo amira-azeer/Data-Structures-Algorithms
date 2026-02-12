@@ -1,4 +1,4 @@
-This repository contains implementations of common data structures and algorithms in JavaScript (or Python).
+This repository contains implementations of common data structures and algorithms in JavaScript.
 
 Data Structures included:
 - Arrays
