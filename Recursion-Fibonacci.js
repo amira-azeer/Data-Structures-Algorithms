@@ -1,5 +1,5 @@
 // Fibonacci Sequence 
-function fibonacciIterative(number){
+function fibonacciIterative(number){ // O(n)
     let arr = [0,1]
     for(let i = 2; i <= number; i++){
         arr.push(arr[i-2] + arr[i-1])
@@ -7,7 +7,7 @@ function fibonacciIterative(number){
     return arr[number]
 }
 
-function fibonacciIterativeRecursive(number){
+function fibonacciIterativeRecursive(number){ // O(2^n)
    if(number < 2){
        return number; 
    }
